@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#ff9a9e"/><stop offset="100%" style="stop-color:#fecfef"/></linearGradient></defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <rect x="120" y="90" width="360" height="200" rx="12" fill="#fff" opacity="0.95"/>
+  <rect x="140" y="110" width="140" height="100" rx="6" fill="#f8f9fa"/>
+  <rect x="300" y="110" width="160" height="16" rx="3" fill="#dee2e6"/>
+  <rect x="300" y="136" width="120" height="12" rx="2" fill="#e9ecef"/>
+  <rect x="300" y="170" width="80" height="28" rx="14" fill="#0d6efd" opacity="0.8"/>
+  <circle cx="420" cy="250" r="28" fill="#fff" opacity="0.9"/>
+  <text x="300" y="320" font-family="Segoe UI,sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">Digital Products Store</text>
+</svg>

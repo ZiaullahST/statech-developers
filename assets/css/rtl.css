@@ -1,0 +1,394 @@
+/* RTL (Right-to-Left) Support for Persian and Pashto */
+
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Navigation RTL adjustments */
+[dir="rtl"] .navbar-brand {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+[dir="rtl"] .navbar-nav {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] .nav-link {
+    padding: 0.5rem 1rem !important;
+}
+
+[dir="rtl"] .btn-admin {
+    margin-right: 0.5rem;
+    margin-left: 0;
+}
+
+/* Hero Section RTL */
+[dir="rtl"] .hero-buttons {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-buttons .btn {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+/* Stats Section RTL */
+[dir="rtl"] .stat-icon {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Service Cards RTL */
+[dir="rtl"] .service-features li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+[dir="rtl"] .btn-link i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/* About Section RTL */
+[dir="rtl"] .feature-list li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Testimonials RTL */
+[dir="rtl"] .testimonial-author {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .testimonial-author img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Team Cards RTL */
+[dir="rtl"] .team-social {
+    flex-direction: row-reverse;
+}
+
+/* Process Cards RTL */
+[dir="rtl"] .process-number {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+/* Contact Section RTL */
+[dir="rtl"] .contact-item {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .contact-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Footer RTL */
+[dir="rtl"] .social-links {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .contact-info i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Admin Dashboard RTL */
+[dir="rtl"] .admin-sidebar {
+    right: 0;
+    left: auto;
+}
+
+[dir="rtl"] .admin-main {
+    margin-right: 250px;
+    margin-left: 0;
+}
+
+[dir="rtl"] .admin-topbar {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .topbar-left {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .topbar-right {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .sidebar-nav .nav-link .badge {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] .stat-card {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .stat-icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+[dir="rtl"] .activity-item {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .activity-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+[dir="rtl"] .admin-card .card-header {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .profile-avatar {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Language Switcher */
+[dir="rtl"] .language-switcher {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+[dir="rtl"] .language-switcher .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 992px) {
+    [dir="rtl"] .admin-sidebar {
+        transform: translateX(100%);
+    }
+    
+    [dir="rtl"] .admin-sidebar.show {
+        transform: translateX(0);
+    }
+    
+    [dir="rtl"] .admin-main {
+        margin-right: 0;
+    }
+}
+
+/* Form RTL adjustments */
+[dir="rtl"] .form-check-input {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+[dir="rtl"] .input-group-text {
+    border-radius: 0.375rem 0 0 0.375rem;
+}
+
+[dir="rtl"] .input-group .form-control:first-child {
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+[dir="rtl"] .input-group .form-control:last-child {
+    border-radius: 0.375rem 0 0 0.375rem;
+}
+
+/* Table RTL */
+[dir="rtl"] table {
+    text-align: right;
+}
+
+[dir="rtl"] .table th,
+[dir="rtl"] .table td {
+    text-align: right;
+}
+
+/* Breadcrumb RTL */
+[dir="rtl"] .breadcrumb-item::before {
+    float: right;
+    padding-right: 0;
+    padding-left: 0.5rem;
+    content: var(--bs-breadcrumb-divider, "/") !important;
+}
+
+[dir="rtl"] .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 0.5rem;
+    padding-left: 0;
+}
+
+/* Dropdown RTL */
+[dir="rtl"] .dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+/* Accordion RTL */
+[dir="rtl"] .accordion-button::after {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Pagination RTL */
+[dir="rtl"] .page-item:first-child .page-link {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+[dir="rtl"] .page-item:last-child .page-link {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Card RTL */
+[dir="rtl"] .card {
+    text-align: right;
+}
+
+/* Modal RTL */
+[dir="rtl"] .modal-header .btn-close {
+    margin: -0.5rem auto -0.5rem -0.5rem;
+}
+
+/* Alert RTL */
+[dir="rtl"] .alert {
+    text-align: right;
+}
+
+/* List Group RTL */
+[dir="rtl"] .list-group-item {
+    text-align: right;
+}
+
+/* Badge RTL */
+[dir="rtl"] .badge {
+    text-align: right;
+}
+
+/* Progress RTL */
+[dir="rtl"] .progress-bar {
+    float: right;
+}
+
+/* Tooltip RTL */
+[dir="rtl"] .tooltip {
+    text-align: right;
+}
+
+/* Popover RTL */
+[dir="rtl"] .popover {
+    text-align: right;
+}
+
+/* Carousel RTL */
+[dir="rtl"] .carousel-control-prev {
+    right: 0;
+    left: auto;
+}
+
+[dir="rtl"] .carousel-control-next {
+    left: 0;
+    right: auto;
+}
+
+/* Navbar Toggler RTL */
+[dir="rtl"] .navbar-toggler {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Custom RTL adjustments for specific elements */
+[dir="rtl"] .me-2 {
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+}
+
+[dir="rtl"] .me-3 {
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
+}
+
+[dir="rtl"] .ms-2 {
+    margin-left: 0 !important;
+    margin-right: 0.5rem !important;
+}
+
+[dir="rtl"] .ms-3 {
+    margin-left: 0 !important;
+    margin-right: 1rem !important;
+}
+
+[dir="rtl"] .me-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .ms-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+/* Flex direction RTL */
+[dir="rtl"] .flex-row {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .justify-content-start {
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .justify-content-end {
+    justify-content: flex-start;
+}
+
+/* Text alignment RTL */
+[dir="rtl"] .text-start {
+    text-align: right !important;
+}
+
+[dir="rtl"] .text-end {
+    text-align: left !important;
+}
+
+/* Border radius RTL */
+[dir="rtl"] .rounded-start {
+    border-radius: 0 0.375rem 0.375rem 0 !important;
+}
+
+[dir="rtl"] .rounded-end {
+    border-radius: 0.375rem 0 0 0.375rem !important;
+}
+
+/* Translate icons for RTL */
+[dir="rtl"] .fa-arrow-right::before {
+    content: "\f060"; /* arrow-left */
+}
+
+[dir="rtl"] .fa-arrow-left::before {
+    content: "\f061"; /* arrow-right */
+}
+
+[dir="rtl"] .fa-chevron-right::before {
+    content: "\f053"; /* chevron-left */
+}
+
+[dir="rtl"] .fa-chevron-left::before {
+    content: "\f054"; /* chevron-right */
+}
+
+[dir="rtl"] .fa-angle-right::before {
+    content: "\f104"; /* angle-left */
+}
+
+[dir="rtl"] .fa-angle-left::before {
+    content: "\f105"; /* angle-right */
+}

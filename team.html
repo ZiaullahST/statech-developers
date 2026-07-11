@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - STATECH</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="nav-brand">
+                <i class="fas fa-code me-2"></i>STATECH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" data-i18n="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-i18n="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="team.html" data-i18n="nav.team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" data-i18n="nav.services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <select class="form-select form-select-sm language-switcher" id="languageSwitcher">
+                            <option value="en">English</option>
+                            <option value="fa">دری (Dari)</option>
+                            <option value="ps">پښتو (Pashto)</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 id="page-title" data-i18n="team.page_title">Our Team</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html" data-i18n="nav.home">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" data-i18n="nav.team">Team</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="team.leadership">Meet Our Leadership</h2>
+                <p class="section-subtitle" data-i18n="team.leadership_subtitle">The visionaries driving STATECH's success</p>
+            </div>
+            <div class="row" id="leadership-container"></div>
+        </div>
+    </section>
+
+    <!-- Engineering Team -->
+    <section class="engineering-team py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="team.engineering_team">Engineering Team</h2>
+                <p class="section-subtitle" data-i18n="team.engineering_team_subtitle">The talented minds behind our innovative solutions</p>
+            </div>
+            <div class="row" id="members-container"></div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section class="join-us-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title" data-i18n="join_team">Join Our Team</h2>
+                    <p class="section-subtitle" data-i18n="join_team_subtitle">We're always looking for talented individuals to join our growing team</p>
+                    <p class="mb-4" data-i18n="join_team_desc">At STATECH, you'll work on challenging projects with cutting-edge technologies alongside some of the best minds in the industry.</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="view_positions">View Open Positions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 data-i18n="footer.brand">STATECH</h4>
+                    <p data-i18n="footer.description">Engineering excellence for the digital age. We build the future of technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h4 data-i18n="footer.quick_links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                        <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 data-i18n="footer.services">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html" data-i18n="footer.software_dev">Software Development</a></li>
+                        <li><a href="services.html" data-i18n="footer.cloud_solutions">Cloud Solutions</a></li>
+                        <li><a href="services.html" data-i18n="footer.cybersecurity">Cybersecurity</a></li>
+                        <li><a href="services.html" data-i18n="footer.consulting">Consulting</a></li>
+                        <li><a href="services.html" data-i18n="footer.support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 data-i18n="footer.contact_info">Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="footer.address_value">123 Tech Street, Silicon Valley, CA</span></li>
+                        <li><i class="fas fa-phone"></i> <span data-i18n="footer.phone_value">+1 (555) 123-4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-i18n="footer.email_value">info@statech.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright" data-i18n="footer.copyright">&copy; 2024 STATECH. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-md-end">
+                        <a href="#" class="footer-link" data-i18n="footer.privacy_policy">Privacy Policy</a> | 
+                        <a href="#" class="footer-link" data-i18n="footer.terms_of_service">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/i18n-core.js"></script>
+    <script src="assets/js/content-loader.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

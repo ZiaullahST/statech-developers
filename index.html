@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STATECH delivers innovative software engineering solutions — cloud, cybersecurity, and custom development for businesses worldwide.">
+    <title>STATECH - Engineering Excellence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="nav-brand">
+                <i class="fas fa-code me-2"></i>STATECH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" data-i18n="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" data-i18n="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html" data-i18n="nav.team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" data-i18n="nav.services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-i18n="nav.contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <select class="form-select form-select-sm language-switcher" id="languageSwitcher">
+                            <option value="en">English</option>
+                            <option value="fa">دری (Dari)</option>
+                            <option value="ps">پښتو (Pashto)</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="hero-title" id="hero-title" data-content="home.heroTitle" data-i18n="home.hero_title">Engineering Excellence for the Digital Age</h1>
+                    <p class="hero-subtitle" id="hero-subtitle" data-content="home.heroSubtitle" data-i18n="home.hero_subtitle">STATECH delivers innovative software solutions that transform businesses and drive technological advancement.</p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary btn-lg me-3" data-i18n="home.our_services">Our Services</a>
+                        <a href="contact.html" class="btn btn-outline-light btn-lg" data-i18n="home.contact_us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <!-- IMAGE PLACEHOLDER: Replace src with your hero image -->
+                        <!-- Example: src="assets/images/hero-banner.jpg" -->
+                        <img src="https://via.placeholder.com/600x400/0d6efd/ffffff?text=STATECH+Engineering" alt="Engineering Team" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row" id="stats-container">
+                <div class="col-md-3 col-6">
+                    <div class="stat-item text-center">
+                        <i class="fas fa-users stat-icon"></i>
+                        <h3 class="stat-number" data-target="50">50+</h3>
+                        <p class="stat-label" data-i18n="home.stats.engineers">Engineers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item text-center">
+                        <i class="fas fa-project-diagram stat-icon"></i>
+                        <h3 class="stat-number" data-target="200">200+</h3>
+                        <p class="stat-label" data-i18n="home.stats.projects">Projects</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item text-center">
+                        <i class="fas fa-globe stat-icon"></i>
+                        <h3 class="stat-number" data-target="15">15+</h3>
+                        <p class="stat-label" data-i18n="home.stats.countries">Countries</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-item text-center">
+                        <i class="fas fa-award stat-icon"></i>
+                        <h3 class="stat-number" data-target="10">10+</h3>
+                        <p class="stat-label" data-i18n="home.stats.years">Years</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="home.core_services">Our Core Services</h2>
+                <p class="section-subtitle" data-i18n="home.core_services_subtitle">Comprehensive engineering solutions tailored to your needs</p>
+            </div>
+            <div class="row" id="services-preview-container">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 data-i18n="home.software_dev">Software Development</h3>
+                        <p data-i18n="home.software_dev_desc">Custom software solutions built with cutting-edge technologies and best practices.</p>
+                        <a href="services.html" class="btn-link" data-i18n="home.learn_more">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <!-- IMAGE PLACEHOLDER: Replace src with your about image -->
+                        <!-- Example: src="assets/images/about-preview.jpg" -->
+                        <img src="https://via.placeholder.com/550x350/6c757d/ffffff?text=About+STATECH" alt="About STATECH" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title" data-i18n="home.why_choose">Why Choose STATECH?</h2>
+                    <p class="mb-4" data-i18n="home.why_choose_desc">We combine technical expertise with innovative thinking to deliver solutions that exceed expectations.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="home.expertise">Industry-leading expertise</span></li>
+                        <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="home.agile">Agile development methodology</span></li>
+                        <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="home.support">24/7 support and maintenance</span></li>
+                        <li><i class="fas fa-check-circle text-success"></i> <span data-i18n="home.cost_effective">Cost-effective solutions</span></li>
+                    </ul>
+                    <a href="about.html" class="btn btn-primary mt-3" data-i18n="home.learn_more_about">Learn More About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title" data-i18n="home.testimonials">What Our Clients Say</h2>
+                <p class="section-subtitle" data-i18n="home.testimonials_subtitle">Trusted by industry leaders worldwide</p>
+            </div>
+            <div class="row" id="testimonials-container"></div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="cta-title" data-i18n="home.cta_title">Ready to Transform Your Business?</h2>
+                    <p class="cta-subtitle" data-i18n="home.cta_subtitle">Let's discuss how STATECH can help you achieve your technology goals.</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg mt-3" data-i18n="home.get_started">Get Started Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 data-content="settings.siteName" data-i18n="nav.brand">STATECH</h4>
+                    <p data-content="settings.siteDescription" data-i18n="footer.description">Engineering excellence for the digital age. We build the future of technology.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h4 data-i18n="footer.quick_links">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
+                        <li><a href="team.html" data-i18n="nav.team">Team</a></li>
+                        <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+                        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 data-i18n="footer.services">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html" data-i18n="footer.software_dev">Software Development</a></li>
+                        <li><a href="services.html" data-i18n="footer.cloud_solutions">Cloud Solutions</a></li>
+                        <li><a href="services.html" data-i18n="footer.cybersecurity">Cybersecurity</a></li>
+                        <li><a href="services.html" data-i18n="footer.consulting">Consulting</a></li>
+                        <li><a href="services.html" data-i18n="footer.support">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4 data-i18n="footer.contact_info">Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-content="settings.address" data-i18n="contact.address_value">123 Tech Street, Silicon Valley, CA</span></li>
+                        <li><i class="fas fa-phone"></i> <span data-content="settings.phone" data-i18n="contact.phone_value">+1 (555) 123-4567</span></li>
+                        <li><i class="fas fa-envelope"></i> <span data-content="settings.contactEmail" data-i18n="contact.email_value">info@statech.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright">&copy; <span data-content-year></span> STATECH. <span data-i18n="footer.copyright_suffix">All rights reserved.</span></p>
+                </div>
+                <div class="col-md-6">
+                    <p class="text-md-end">
+                        <a href="#" class="footer-link" data-i18n="footer.privacy_policy">Privacy Policy</a> | 
+                        <a href="#" class="footer-link" data-i18n="footer.terms_of_service">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/i18n-core.js"></script>
+    <script src="assets/js/content-loader.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

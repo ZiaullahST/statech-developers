@@ -1,0 +1,184 @@
+{
+  "settings": {
+    "siteName": "STATECH",
+    "siteDescription": "Engineering excellence for the digital age. We build the future of technology.",
+    "contactEmail": "info@statech.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Tech Street, Silicon Valley, CA 94025",
+    "businessHours": "Mon - Fri: 9:00 AM - 6:00 PM"
+  },
+  "home": {
+    "heroTitle": "Engineering Excellence for the Digital Age",
+    "heroSubtitle": "STATECH delivers innovative software solutions that transform businesses and drive technological advancement.",
+    "stats": [
+      { "value": 50, "suffix": "+", "labelKey": "engineers", "icon": "fas fa-users" },
+      { "value": 200, "suffix": "+", "labelKey": "projects", "icon": "fas fa-project-diagram" },
+      { "value": 15, "suffix": "+", "labelKey": "countries", "icon": "fas fa-globe" },
+      { "value": 10, "suffix": "+", "labelKey": "years", "icon": "fas fa-award" }
+    ]
+  },
+  "testimonials": [
+    {
+      "id": "t1",
+      "quote": "STATECH transformed our digital infrastructure. Their team's expertise and dedication are unmatched.",
+      "name": "John Doe",
+      "role": "CEO, TechCorp"
+    },
+    {
+      "id": "t2",
+      "quote": "Outstanding work on our cloud migration project. Delivered on time and exceeded all expectations.",
+      "name": "Sarah Miller",
+      "role": "CTO, InnovateTech"
+    },
+    {
+      "id": "t3",
+      "quote": "The cybersecurity solutions provided by STATECH have given us peace of mind. Highly recommended!",
+      "name": "Michael Johnson",
+      "role": "CISO, SecureNet"
+    }
+  ],
+  "services": [
+    {
+      "id": "s0",
+      "title": "Website Creation",
+      "description": "Custom, responsive websites built for businesses, portfolios, and blogs — from design to deployment.",
+      "icon": "fas fa-globe",
+      "featuredOnHome": true,
+      "features": ["Responsive Design", "CMS Integration", "SEO-Ready", "Hosting Setup"]
+    },
+    {
+      "id": "s0b",
+      "title": "Database Creation",
+      "description": "Structured database design, setup, and optimization for web apps, e-commerce, and content platforms.",
+      "icon": "fas fa-database",
+      "featuredOnHome": true,
+      "features": ["Schema Design", "PostgreSQL / MySQL", "MongoDB", "Migrations & Backups"]
+    },
+    {
+      "id": "s1",
+      "title": "Software Development",
+      "description": "Custom software solutions built with cutting-edge technologies and best practices.",
+      "icon": "fas fa-laptop-code",
+      "featuredOnHome": true,
+      "features": ["Web Applications", "Mobile Apps", "API Development", "Legacy Modernization"]
+    },
+    {
+      "id": "s2",
+      "title": "Cloud Solutions",
+      "description": "Scalable cloud infrastructure and migration services for modern businesses.",
+      "icon": "fas fa-cloud",
+      "featuredOnHome": true,
+      "features": ["Cloud Migration", "AWS/Azure/GCP", "DevOps & CI/CD", "Infrastructure as Code"]
+    },
+    {
+      "id": "s3",
+      "title": "Cybersecurity",
+      "description": "Comprehensive security solutions to protect your digital assets.",
+      "icon": "fas fa-shield-alt",
+      "featuredOnHome": true,
+      "features": ["Security Audits", "Penetration Testing", "Compliance", "Incident Response"]
+    },
+    {
+      "id": "s4",
+      "title": "Data Analytics",
+      "description": "Transform your data into actionable insights with advanced analytics solutions.",
+      "icon": "fas fa-chart-line",
+      "featuredOnHome": false,
+      "features": ["Business Intelligence", "Data Warehousing", "Machine Learning", "Visualization"]
+    },
+    {
+      "id": "s5",
+      "title": "IT Consulting",
+      "description": "Strategic technology consulting to guide your digital transformation journey.",
+      "icon": "fas fa-lightbulb",
+      "featuredOnHome": false,
+      "features": ["Technology Strategy", "Architecture Review", "Process Optimization", "Digital Transformation"]
+    },
+    {
+      "id": "s6",
+      "title": "Support & Maintenance",
+      "description": "24/7 support and maintenance to keep your systems running smoothly.",
+      "icon": "fas fa-headset",
+      "featuredOnHome": false,
+      "features": ["24/7 Monitoring", "Bug Fixes", "Performance Tuning", "Updates & Patches"]
+    }
+  ],
+  "bloggerPortfolio": [
+    {
+      "id": "b1",
+      "title": "Blog & Content Website",
+      "description": "Full-featured blogging platforms with custom themes, content management, and reader-friendly layouts for professional writers.",
+      "image": "assets/images/portfolio/blog-website.svg",
+      "technologies": ["WordPress", "Next.js", "Tailwind CSS", "SEO", "Google Analytics"]
+    },
+    {
+      "id": "b2",
+      "title": "SEO & Content Monetization",
+      "description": "Search optimization, ad integration, and analytics setup so bloggers can rank higher and earn from their content.",
+      "image": "assets/images/portfolio/seo-monetization.svg",
+      "technologies": ["SEMrush", "Google AdSense", "Ahrefs", "Schema Markup", "Search Console"]
+    },
+    {
+      "id": "b3",
+      "title": "Newsletter & Email Marketing",
+      "description": "Subscriber lists, automated email campaigns, and paid newsletter setups — the backbone of blogger revenue.",
+      "image": "assets/images/portfolio/newsletter.svg",
+      "technologies": ["Mailchimp", "ConvertKit", "Stripe", "Substack API", "SendGrid"]
+    },
+    {
+      "id": "b4",
+      "title": "Social Media & Brand Integration",
+      "description": "Connect your blog to Instagram, Twitter, and Facebook with unified branding and cross-platform content sharing.",
+      "image": "assets/images/portfolio/social-brand.svg",
+      "technologies": ["Instagram API", "Buffer", "Canva", "Meta Pixel", "Hootsuite"]
+    },
+    {
+      "id": "b5",
+      "title": "Digital Products & Online Store",
+      "description": "Sell e-books, courses, templates, and memberships directly from your blog with secure payment processing.",
+      "image": "assets/images/portfolio/digital-store.svg",
+      "technologies": ["WooCommerce", "Shopify", "Gumroad", "PayPal", "Digital Downloads"]
+    }
+  ],
+  "team": {
+    "leadership": [
+      {
+        "id": "l1",
+        "name": "James Wilson",
+        "role": "Chief Executive Officer",
+        "bio": "20+ years of experience in technology leadership and strategic planning.",
+        "initials": "JW"
+      },
+      {
+        "id": "l2",
+        "name": "Sarah Chen",
+        "role": "Chief Technology Officer",
+        "bio": "Expert in cloud architecture and enterprise software solutions.",
+        "initials": "SC"
+      },
+      {
+        "id": "l3",
+        "name": "Michael Brown",
+        "role": "Chief Operating Officer",
+        "bio": "Specialist in operational excellence and process optimization.",
+        "initials": "MB"
+      }
+    ],
+    "members": [
+      { "id": "m1", "name": "Emily Martinez", "role": "Senior Software Engineer", "initials": "EM" },
+      { "id": "m2", "name": "David Johnson", "role": "DevOps Engineer", "initials": "DJ" },
+      { "id": "m3", "name": "Lisa Anderson", "role": "UX Designer", "initials": "LA" },
+      { "id": "m4", "name": "Robert Taylor", "role": "Security Analyst", "initials": "RT" },
+      { "id": "m5", "name": "Jennifer Lee", "role": "Data Scientist", "initials": "JL" },
+      { "id": "m6", "name": "Chris Garcia", "role": "Cloud Architect", "initials": "CG" },
+      { "id": "m7", "name": "Amanda White", "role": "QA Engineer", "initials": "AW" },
+      { "id": "m8", "name": "Kevin Thompson", "role": "Full Stack Developer", "initials": "KT" }
+    ]
+  },
+  "about": {
+    "story": "Founded in 2014, STATECH has grown from a small startup to a leading engineering firm serving clients worldwide. Our journey has been driven by a passion for technology and a commitment to excellence.",
+    "story2": "We believe in the power of innovation to transform businesses and create lasting value. Our team of expert engineers and consultants work tirelessly to deliver solutions that meet the highest standards of quality and performance.",
+    "mission": "To deliver innovative engineering solutions that empower businesses to thrive in the digital age, while maintaining the highest standards of quality, integrity, and customer satisfaction.",
+    "vision": "To be the global leader in software engineering and technology consulting, recognized for our expertise, innovation, and unwavering commitment to client success."
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs><linearGradient id="g" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#4facfe"/><stop offset="100%" style="stop-color:#00f2fe"/></linearGradient></defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <polyline points="100,260 180,200 260,220 340,140 420,160 500,80" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="180" cy="200" r="8" fill="#fff"/><circle cx="340" cy="140" r="8" fill="#fff"/><circle cx="500" cy="80" r="8" fill="#fff"/>
+  <text x="300" y="320" font-family="Segoe UI,sans-serif" font-size="20" fill="#fff" text-anchor="middle" font-weight="bold">SEO &amp; Monetization</text>
+</svg>

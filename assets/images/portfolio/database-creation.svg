@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#11998e"/><stop offset="100%" style="stop-color:#38ef7d"/></linearGradient></defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <ellipse cx="300" cy="120" rx="120" ry="36" fill="#fff" opacity="0.9"/>
+  <rect x="180" y="120" width="240" height="100" fill="#fff" opacity="0.9"/>
+  <ellipse cx="300" cy="220" rx="120" ry="36" fill="#fff" opacity="0.75"/>
+  <ellipse cx="300" cy="160" rx="120" ry="36" fill="none" stroke="#fff" stroke-width="3" opacity="0.6"/>
+  <text x="300" y="300" font-family="Segoe UI,sans-serif" font-size="22" fill="#fff" text-anchor="middle" font-weight="bold">Database Creation</text>
+</svg>
