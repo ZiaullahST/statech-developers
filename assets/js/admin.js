@@ -88,7 +88,7 @@ function setupSidebar() {
     toggle?.addEventListener('click', () => sidebar.classList.toggle('show'));
     document.addEventListener('click', (e) => {
         if (window.innerWidth < 992 && !sidebar.contains(e.target) && !toggle.contains(e.target)) {
-            sidebar.classList.remove('show');
+                sidebar.classList.remove('show');
         }
     });
 }
@@ -190,7 +190,7 @@ async function saveAboutContent(e) {
 }
 
 async function saveSettings(e) {
-    e.preventDefault();
+            e.preventDefault();
     content.settings.siteName = document.getElementById('siteName').value;
     content.settings.siteDescription = document.getElementById('siteDescription').value;
     content.settings.contactEmail = document.getElementById('contactEmail').value;

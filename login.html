@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Login - STATECH</title>
+    <title data-i18n="login.page_title">Team Login - STATECH</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -48,37 +48,100 @@
         <div class="login-brand">
             <i class="fas fa-code text-primary me-2"></i>STATECH
         </div>
-        <p class="login-subtitle">Team members only — sign in to manage the website</p>
+        
+        <ul class="nav nav-pills nav-fill mb-4" id="authTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="login-tab" data-bs-toggle="pill" data-bs-target="#login-panel" type="button" role="tab" data-i18n="login.sign_in">Sign In</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="register-tab" data-bs-toggle="pill" data-bs-target="#register-panel" type="button" role="tab" data-i18n="login.register">Register</button>
+            </li>
+        </ul>
 
-        <div class="alert alert-danger login-error" id="loginError" role="alert"></div>
+        <div class="tab-content" id="authTabsContent">
+            <div class="tab-pane fade show active" id="login-panel" role="tabpanel">
+                <p class="login-subtitle" data-i18n="login.subtitle">Team members only — sign in to manage the website</p>
 
-        <form id="loginForm">
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control form-control-lg" id="email" required autocomplete="email" placeholder="you@statech.com">
+                <div class="alert alert-danger login-error" id="loginError" role="alert"></div>
+
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label for="email" class="form-label" data-i18n="login.email">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="email" required autocomplete="email" data-i18n-placeholder="login.email_placeholder" placeholder="you@statech.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label" data-i18n="login.password">Password</label>
+                        <input type="password" class="form-control form-control-lg" id="password" required autocomplete="current-password" data-i18n-placeholder="login.password_placeholder" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100" id="loginBtn">
+                        <i class="fas fa-sign-in-alt me-2"></i><span data-i18n="login.sign_in">Sign In</span>
+                    </button>
+                </form>
+
+                <div class="text-center mt-4">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-secondary btn-lg" id="googleLoginBtn">
+                            <i class="fab fa-google me-2"></i><span data-i18n="login.sign_in_with_google">Sign in with Google</span>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <div class="mb-4">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control form-control-lg" id="password" required autocomplete="current-password" placeholder="Enter your password">
+
+            <div class="tab-pane fade" id="register-panel" role="tabpanel">
+                <p class="login-subtitle" data-i18n="login.register_subtitle">Create a new account to join our team</p>
+
+                <div class="alert alert-danger login-error" id="registerError" role="alert"></div>
+
+                <form id="registerForm">
+                    <div class="mb-3">
+                        <label for="reg-name" class="form-label" data-i18n="login.full_name">Full Name</label>
+                        <input type="text" class="form-control form-control-lg" id="reg-name" required autocomplete="name" data-i18n-placeholder="login.full_name_placeholder" placeholder="Enter your full name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="reg-email" class="form-label" data-i18n="login.email">Email</label>
+                        <input type="email" class="form-control form-control-lg" id="reg-email" required autocomplete="email" data-i18n-placeholder="login.email_placeholder" placeholder="you@statech.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="reg-password" class="form-label" data-i18n="login.password">Password</label>
+                        <input type="password" class="form-control form-control-lg" id="reg-password" required autocomplete="new-password" data-i18n-placeholder="login.password_placeholder" placeholder="Enter your password">
+                    </div>
+                    <div class="mb-4">
+                        <label for="reg-confirm-password" class="form-label" data-i18n="login.confirm_password">Confirm Password</label>
+                        <input type="password" class="form-control form-control-lg" id="reg-confirm-password" required autocomplete="new-password" data-i18n-placeholder="login.confirm_password_placeholder" placeholder="Confirm your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100" id="registerBtn">
+                        <i class="fas fa-user-plus me-2"></i><span data-i18n="login.create_account">Create Account</span>
+                    </button>
+                </form>
+
+                <div class="text-center mt-4">
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-outline-secondary btn-lg" id="googleRegisterBtn">
+                            <i class="fab fa-google me-2"></i><span data-i18n="login.register_with_google">Register with Google</span>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-lg w-100" id="loginBtn">
-                <i class="fas fa-sign-in-alt me-2"></i>Sign In
-            </button>
-        </form>
+        </div>
 
         <p class="text-center text-muted mt-4 mb-0 small">
-            <a href="/" class="text-decoration-none"><i class="fas fa-arrow-left me-1"></i>Back to website</a>
+            <a href="/" class="text-decoration-none"><i class="fas fa-arrow-left me-1"></i><span data-i18n="login.back_to_website">Back to website</span></a>
         </p>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/i18n-core.js"></script>
     <script>
+        // Login form handler
         document.getElementById('loginForm').addEventListener('submit', async (e) => {
             e.preventDefault();
             const btn = document.getElementById('loginBtn');
             const errorEl = document.getElementById('loginError');
             errorEl.style.display = 'none';
             btn.disabled = true;
-            btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Signing in...';
+            const signInText = btn.querySelector('span');
+            const originalText = signInText.textContent;
+            signInText.textContent = window.i18n ? window.i18n.t('login.signing_in') : 'Signing in...';
 
             try {
                 const res = await fetch('/api/auth/login', {
@@ -90,14 +153,91 @@
                     })
                 });
                 const data = await res.json();
-                if (!res.ok) throw new Error(data.error || 'Login failed');
+                if (!res.ok) throw new Error(data.error || (window.i18n ? window.i18n.t('login.login_failed') : 'Login failed'));
                 window.location.href = '/admin';
             } catch (err) {
                 errorEl.textContent = err.message;
                 errorEl.style.display = 'block';
                 btn.disabled = false;
-                btn.innerHTML = '<i class="fas fa-sign-in-alt me-2"></i>Sign In';
+                signInText.textContent = originalText;
             }
+        });
+
+        // Register form handler
+        document.getElementById('registerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = document.getElementById('registerBtn');
+            const errorEl = document.getElementById('registerError');
+            errorEl.style.display = 'none';
+            btn.disabled = true;
+            const createAccountText = btn.querySelector('span');
+            const originalText = createAccountText.textContent;
+            createAccountText.textContent = window.i18n ? window.i18n.t('login.creating_account') : 'Creating account...';
+
+            const password = document.getElementById('reg-password').value;
+            const confirmPassword = document.getElementById('reg-confirm-password').value;
+
+            if (password !== confirmPassword) {
+                errorEl.textContent = window.i18n ? window.i18n.t('login.passwords_not_match') : 'Passwords do not match';
+                errorEl.style.display = 'block';
+                btn.disabled = false;
+                createAccountText.textContent = originalText;
+                return;
+            }
+
+            try {
+                const res = await fetch('/api/auth/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        name: document.getElementById('reg-name').value,
+                        email: document.getElementById('reg-email').value,
+                        password: password
+                    })
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || (window.i18n ? window.i18n.t('login.registration_failed') : 'Registration failed'));
+                
+                // Switch to login tab and show success message
+                const loginTab = new bootstrap.Tab(document.getElementById('login-tab'));
+                loginTab.show();
+                document.getElementById('loginError').textContent = window.i18n ? window.i18n.t('login.registration_success') : 'Registration successful! Please sign in.';
+                document.getElementById('loginError').classList.remove('alert-danger');
+                document.getElementById('loginError').classList.add('alert-success');
+                document.getElementById('loginError').style.display = 'block';
+                
+                // Pre-fill login form
+                document.getElementById('email').value = document.getElementById('reg-email').value;
+            } catch (err) {
+                errorEl.textContent = err.message;
+                errorEl.style.display = 'block';
+                btn.disabled = false;
+                createAccountText.textContent = originalText;
+            }
+        });
+
+        // Google login handler
+        document.getElementById('googleLoginBtn').addEventListener('click', () => {
+            // This would typically redirect to Google OAuth
+            window.location.href = '/api/auth/google';
+        });
+
+        // Google register handler
+        document.getElementById('googleRegisterBtn').addEventListener('click', () => {
+            // This would typically redirect to Google OAuth
+            window.location.href = '/api/auth/google';
+        });
+
+        // Reset error message when switching tabs
+        document.getElementById('login-tab').addEventListener('shown.bs.tab', () => {
+            const errorEl = document.getElementById('loginError');
+            errorEl.style.display = 'none';
+            errorEl.classList.remove('alert-success');
+            errorEl.classList.add('alert-danger');
+        });
+
+        document.getElementById('register-tab').addEventListener('shown.bs.tab', () => {
+            document.getElementById('registerError').style.display = 'none';
         });
     </script>
 </body>

@@ -6,6 +6,7 @@
     "team": "Team",
     "services": "Services",
     "contact": "Contact",
+    "login": "Login",
     "admin": "Admin"
   },
   "home": {
@@ -343,5 +344,30 @@
     "message_msg": "Message",
     "profile": "Profile",
     "logout": "Logout"
+  },
+  "login": {
+    "page_title": "Team Login - STATECH",
+    "subtitle": "Team members only — sign in to manage the website",
+    "email": "Email",
+    "email_placeholder": "you@statech.com",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "sign_in": "Sign In",
+    "signing_in": "Signing in...",
+    "back_to_website": "Back to website",
+    "login_failed": "Login failed",
+    "register": "Register",
+    "register_subtitle": "Create a new account to join our team",
+    "full_name": "Full Name",
+    "full_name_placeholder": "Enter your full name",
+    "confirm_password": "Confirm Password",
+    "confirm_password_placeholder": "Confirm your password",
+    "create_account": "Create Account",
+    "creating_account": "Creating account...",
+    "sign_in_with_google": "Sign in with Google",
+    "register_with_google": "Register with Google",
+    "passwords_not_match": "Passwords do not match",
+    "registration_failed": "Registration failed",
+    "registration_success": "Registration successful! Please sign in."
   }
 }

@@ -1,11 +1,11 @@
 {
   "nav": {
-    "brand": "استیتچ",
     "home": "خانه",
     "about": "درباره ما",
     "team": "تیم",
     "services": "خدمات",
     "contact": "تماس",
+    "login": "ورود",
     "admin": "مدیریت"
   },
   "home": {
@@ -215,13 +215,13 @@
     "get_in_touch": "تماس بگیرید",
     "get_in_touch_desc": "سوالی دارید یا می‌خواهید در مورد یک پروژه بحث کنید؟ دوست داریم از شما بشنویم.",
     "address": "آدرس",
-    "address_value": "خیابان تکن ۱۲۳، سیلیکون ولی، کالیفرنیا ۹۴۰۲۵",
+    "address_value": "کابل، افغانستان، ناحیه ۶ چهار قلعه چهاردهی",
     "phone": "تلفن",
-    "phone_value": "+۱ (۵۵۵) ۱۲۳-۴۵۶۷",
+    "phone_value": "+۹۳ ۷۶۷ ۶۳۳ ۰۰۴",
     "email": "ایمیل",
-    "email_value": "info@statech.com",
+    "email_value": "info.statech.developers@gmail.com",
     "business_hours": "ساعات کاری",
-    "business_hours_value": "دوشنبه تا جمعه: ۹:۰۰ صبح - ۶:۰۰ عصر",
+    "business_hours_value": "شنبه تا پنج شنبه: ۹:۰۰ صبح - ۶:۰۰ عصر",
     "send_message": "پیام ارسال کنید",
     "first_name": "نام",
     "last_name": "نام خانوادگی",
@@ -343,5 +343,30 @@
     "message_msg": "پیام",
     "profile": "پروفایل",
     "logout": "خروج"
+  },
+  "login": {
+    "page_title": "ورود تیم - STATECH",
+    "subtitle": "فقط اعضای تیم — برای مدیریت وب‌سایت وارد شوید",
+    "email": "ایمیل",
+    "email_placeholder": "you@statech.com",
+    "password": "رمز عبور",
+    "password_placeholder": "رمز عبور خود را وارد کنید",
+    "sign_in": "ورود",
+    "signing_in": "در حال ورود...",
+    "back_to_website": "بازگشت به وب‌سایت",
+    "login_failed": "ورود ناموفق بود",
+    "register": "ثبت‌نام",
+    "register_subtitle": "برای پیوستن به تیم ما حساب جدید بسازید",
+    "full_name": "نام کامل",
+    "full_name_placeholder": "نام کامل خود را وارد کنید",
+    "confirm_password": "تأیید رمز عبور",
+    "confirm_password_placeholder": "رمز عبور خود را تأیید کنید",
+    "create_account": "ساخت حساب",
+    "creating_account": "در حال ساخت حساب...",
+    "sign_in_with_google": "ورود با گوگل",
+    "register_with_google": "ثبت‌نام با گوگل",
+    "passwords_not_match": "رمز عبور مطابقت ندارد",
+    "registration_failed": "ثبت‌نام ناموفق بود",
+    "registration_success": "ثبت‌نام موفقیت‌آمیز بود! لطفاً وارد شوید."
   }
 }

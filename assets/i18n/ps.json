@@ -1,11 +1,11 @@
 {
   "nav": {
-    "brand": "ستېچ",
     "home": "کور",
     "about": "زمونږ په اړه",
     "team": "ټیم",
     "services": "خدمتونه",
     "contact": "اړیکه",
+    "login": "ننوتل",
     "admin": "ادمین"
   },
   "home": {
@@ -215,13 +215,13 @@
     "get_in_touch": "اړیکه ونیسئ",
     "get_in_touch_desc": "آیا تاسو یو پوښتنه لرئ یا غواړئ په یوه پروژه بحث وکړئ؟ موږ غواړو چې تاسو واورو.",
     "address": "پته",
-    "address_value": "۱۲۳ ټیک سټریټ، سیلیکون ویلي، کالیفورنیا ۹۴۰۲۵",
+    "address_value": "کابل، افغانستان، ۶ ناحیه چهار قلعه چهاردهی",
     "phone": "تلیفون",
-    "phone_value": "+۱ (۵۵۵) ۱۲۳-۴۵۶۷",
+    "phone_value": "+۹۳ ۷۶۷ ۶۳۳ ۰۰۴",
     "email": "ایمیل",
-    "email_value": "info@statech.com",
+    "email_value": "info.statech.developers@gmail.com",
     "business_hours": "د کار ساعتونه",
-    "business_hours_value": "دوشنبه څخه جمعه: ۹:۰۰ سمه - ۶:۰۰ غونډه",
+    "business_hours_value": "شنبه تر پنج شنبه: ۹:۰۰ سمه - ۶:۰۰ غونډه",
     "send_message": "پیام ولېږئ",
     "first_name": "نوم",
     "last_name": "تخلص",
@@ -259,7 +259,7 @@
     "consulting": "مشاوره",
     "support": "ملاتړ",
     "contact_info": "اړیکه معلومات",
-    "copyright": "© ۲۰۲۴ ستېچ. ټول حقوق محفوظ دي.",
+    "copyright": "© ۲۰۲۶ Statech. ټول حقوق محفوظ دي.",
     "copyright_suffix": "ټول حقوق محفوظ دي.",
     "privacy_policy": "پرایویسی پالیسي",
     "terms_of_service": "د خدمات شرایط"
@@ -343,5 +343,30 @@
     "message_msg": "پیام",
     "profile": "پروفایل",
     "logout": "لوگ آوټ"
+  },
+  "login": {
+    "page_title": "د ټیم ننوتل - STATECH",
+    "subtitle": "د ټیم غړی یوازې — د ویب سایټ مدیریت لپاره ننوتئ",
+    "email": "ایمیل",
+    "email_placeholder": "you@statech.com",
+    "password": "پاسورډ",
+    "password_placeholder": "خپل پاسورډ ولیکئ",
+    "sign_in": "ننوتل",
+    "signing_in": "ننوتل کیږي...",
+    "back_to_website": "ویب سایټ ته بیرته",
+    "login_failed": "ننوتل ناکام شول",
+    "register": "رجستر",
+    "register_subtitle": "د زمونږ ټیم سره یوځای کیدو لپاره نوی اکاونټ جوړ کړئ",
+    "full_name": "د نوم نوم",
+    "full_name_placeholder": "خپل د نوم نوم ولیکئ",
+    "confirm_password": "پاسورډ تایید کړئ",
+    "confirm_password_placeholder": "خپل پاسورډ تایید کړئ",
+    "create_account": "اکاونټ جوړ کړئ",
+    "creating_account": "اکاونټ جوړیږي...",
+    "sign_in_with_google": "د گوګل سره ننوتل",
+    "register_with_google": "د گوګل سره رجستر",
+    "passwords_not_match": "پاسورډونه سره سمون نلري",
+    "registration_failed": "رجستر ناکام شو",
+    "registration_success": "رجستر بریالی شو! مهرباني وکړئ ننوتئ."
   }
 }
